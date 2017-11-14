@@ -1,0 +1,278 @@
+*{margin: 0; padding: 0; font-family: 'Lora', serif;}
+
+html{
+	background: url(images/background_03.jpg) repeat;
+}
+
+.logo{
+	width: 240px;
+	height: 64px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	margin-left: 31px;
+	border-radius: 30px;
+}
+body{
+	width: 1024px;
+	height: 734px;
+	border-top: 5px solid black;
+	margin: auto;
+	background-color: #e8e6e5;
+	border-bottom: 62px solid #1f1f1f;
+}
+ 
+ header{
+ 	width: 1024px;
+ 	height: 122px;
+ 	margin: auto;
+ }
+
+.menu{
+	width: 960px;
+	height: 34px;
+	display: block;
+	margin: auto;
+	border-radius: 8px;
+	background: url(images/topmenu_03.jpg) no-repeat;
+}
+
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	line-height: 30px;
+	height: 34px;
+	display: block;
+}
+
+.menu li a:hover{
+	color: #d1b748;
+}
+.menu li{
+	margin: 0 19px;
+	float: left;
+	list-style: none;
+}
+
+.nav{
+	margin-top: 30px;
+	margin-right: 32px;
+	display: block;
+	float: right;
+	position: relative;
+	font-size: 12px;
+	bottom: 100px;
+}
+
+.nav li{
+	padding: 3px;
+	list-style: none;
+	float: left;
+	}
+
+.nav a{
+	color:#595959;
+	text-decoration: none;
+}
+.nav a:hover{
+	color: #1f1f1f;
+}
+
+.nav a.logout{
+	color: red;
+}
+.nav a.logout:hover{
+	color: #3b3b3b;
+}
+.tel{
+	width: 260px;
+	height: 34px;
+	color: #ececec;
+	line-height: 20px;
+	float: right;
+	padding-right: 40px;
+	position: relative;
+	}
+.tel li{
+	position: relative;
+	font-weight: bold;	
+	padding: 5px;
+	font-size: 18px;
+	float: right;
+}
+
+.banner{
+	width: 676px;
+	height: 309px;
+	float: left;
+	margin-left: 31px;
+}
+
+.login{
+	background: url(images/login_11.jpg) no-repeat;
+	width: 271px;
+	height: 308px;
+	float: right;
+	position: relative;
+	bottom: 28px;
+	right: 31px;
+}
+
+.login a.forget{
+	bottom: 8px;
+	color: white;
+	position: relative;
+	text-decoration: none;
+	float: right;
+	font-size: 14px;
+	margin: 0 65px 0 0;
+	font-weight: normal;
+}
+
+.login a:hover{
+	color: red;
+}
+
+.login img.loginico{
+	width: 86px;
+	height: 35px;
+	display: block;
+	position: relative;
+}
+
+content .kira{
+	margin: 24px 0 0 87px;
+	position: relative;
+	width: 86px;
+	height: 35px;
+	display: block;
+}
+
+.login img.openacc{
+	width: 184px;
+	height: 34px;
+	border-radius: 20px;
+	position: relative;
+	margin: 30px 0 0 40px;
+}
+
+.login p.member{
+	color: white;
+	position: relative;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	top: 20px;
+	font-family: HelveticaNeueLT;
+
+}
+
+.login h4{
+	background: url(images/icon_12.png) no-repeat;
+	top: 15px;
+	left: 23px;
+	padding-left: 30px;
+	float: left;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+form.username{
+	display: block;
+	position: relative;
+	padding-top: 55px;
+	padding-left: 26px;
+	margin-bottom: 10px;
+}
+
+form.password{
+	height: 20px;
+	padding-left: 26px;
+}
+
+form input{
+	width: 216px;
+	height: 25px;
+}
+
+form.rememberme input{
+	width: 11px;
+	height: 13px;
+	position: relative;
+	margin: 26px 0 0 70px;
+	display: block;
+}
+
+form.rememberme label{
+	color: white;
+	display: block;
+	padding-right: 92px;
+	position: relative;
+	bottom: 3px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+form.rememberme {
+	position: relative;
+	bottom: 8px;
+
+}
+
+.spec{
+	position: relative;
+	outline: 0px solid black;
+	width: 363px;
+	height: 190px;
+	float: left;
+	display: block;	
+	margin: 19px 0 0 30px;
+
+}
+
+.spec h3{
+	color: #595959;
+	margin-bottom: 30px;
+}
+.spec h3 span{
+	color: red;
+}
+
+.spec ul{
+	margin-left: 6px;
+}
+.spec li{
+	color: #737070;
+	background: url('images/biznes_5_16.png') no-repeat 1px 7px;
+	list-style: none;
+	line-height: 25px;
+	padding-left: 30px;
+	position: relative;
+}
+
+.works{
+	width: 590px;
+	height: 200px;
+	float: left;
+	display: block;
+	outline: 0px solid black;
+	position: relative;
+	bottom: 7px;
+}
+.works h3 span{
+	color: red;
+}
+
+.works h3{
+	color: #595959;
+	margin-bottom: 30px;
+}
+
+.works img{
+	width: 600px;
+	height: 140px;
+}
