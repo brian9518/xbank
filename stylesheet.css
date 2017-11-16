@@ -277,3 +277,12 @@ form.rememberme {
 	height: 140px;
 }
 
+footer h2{
+	position: relative;
+	color: white;
+	top: 95px;
+	float: left;
+	left: 20px;
+	font-family: sans-serif;	
+}
+
